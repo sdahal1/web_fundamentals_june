@@ -1,0 +1,16 @@
+The Request Response Cycle: 
+
+1. Client make a request such as "http://www.amazon.com"
+2. Client get back a response from the server (the computer that amazon owns that has all their web pages). The response is a web page.
+3. The response consists of: HTML, CSS, JavaScript
+
+
+HTML- The content of the web page (Text, images, form inputs, form dropdowns, checkboxes/radio buttons, buttons, links)
+
+CSS- The styling of the content and arranging the content (Make the background color blue, change font color and font style. Place some content next to another content)
+
+JS- The manipulation of the content and styling based on user events (clicking, scrolling, hovering the mouse). For example, if I click on something, more content appears. Based on the user interaction, it changes the appearance of the page. 
+
+
+
+
