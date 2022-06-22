@@ -1,0 +1,55 @@
+*{
+   /* color: blue; */
+}
+
+body{
+   background-color: aqua;
+   color: black;
+}
+
+h1{
+   text-align: center;
+   color:firebrick;
+   font-size: 40px;
+   background-color: cornflowerblue;
+}
+
+h2{
+    text-align:right;
+    text-decoration:underline;
+    font-style:italic;
+    font-weight: 100;
+    font-family: fantasy;
+}
+
+h3{
+    font-family:monospace;
+}
+
+span{
+    color:darkkhaki;
+}
+
+p{
+    color:indigo;
+    line-height: 25px;;
+}
+
+#p1{
+    font-style: italic;
+    color:fuchsia;
+}
+
+.unda{
+    text-decoration: underline;
+    color: green;
+}
+
+ul>li{
+    font-size: 28px;
+}
+
+div>h3{
+   font-style:italic; 
+}
+
