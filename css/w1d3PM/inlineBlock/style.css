@@ -1,0 +1,22 @@
+#header{
+    height: 100px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+#side-nav{
+    height: 400px;
+    width: 200px;
+    background-color: darkolivegreen;
+    display: inline-block;
+    vertical-align:top;
+    
+}
+
+#main{
+    height: 600px;
+    width: 500px;
+    background-color: indigo;
+    display: inline-block;
+}
+
