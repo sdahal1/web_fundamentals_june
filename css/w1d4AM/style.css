@@ -7,7 +7,9 @@
 .row{
     height: 300px;
     outline: 1px solid black;
-    background-color: coral;
+    /* background-color: coral; */
+    background-color: #4EC5E4;
+
     display: flex;
     justify-content:center;  /*x axis */
     align-items:center; /*y axis*/
