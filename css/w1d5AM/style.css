@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, gray , white 50%);
+}
+
+.main{
+    height: 700px;
+    width: 1400px;
+    margin: 0 auto; /* this centers our .main div inside its container*/
+    outline: 3px solid red;;
+}
+
+#cover-photo{
+    width: 1400px;
+    height: 500px;
+    object-fit:cover;
+}
+
+.profile-pic, #thumbnail{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile-pic{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+#thumbnail{
+    border: 4px solid white;
+}
+
+h2{
+    font-size: 4rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+.info{
+    margin-left: 60px;
+    /* position: absolute;
+    top: 0px;
+    left: 10px; */
+}
+
+#news-feed{
+    font-size: 16px;
+}
+
+.cookie-box{
+    height: 100px;
+    width: 1400px;
+    background-color: aqua;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 200px;
+
+}
