@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    padding: 0px 30px;
+} */
+
+#nav-bar{
+    /* outline: 3px solid black; */
+    /* height: 100px; */
+    background-color: aquamarine;
+    margin: 0px 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 35px;
+}
+
+#nav-bar input{
+    height: 36px;
+    width: 240px;
+    font-size: 18px;
+}
+
+#nav-bar button{
+   /* height: 30px;  */
+   padding: 3px 10px;
+   font-size: 20px;
+   background-color: darkgoldenrod;
+   box-shadow: 3px 3px black;
+}
+
+#nav-middle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#main{
+    /* outline: 3px solid red; */
+    height: 800px;
+    margin: 0px 30px;
+
+    display: flex;
+    /* gap: 20px; */
+}
+
+#col-left, #col-right{
+    /* outline: 1px solid black; */
+    /* height: 300px; */
+}
+
+#col-left{
+    flex: 2;
+    margin-right: 20px;
+}
+
+#col-right{
+    flex: 1;
+}
+
+.puppy{
+    /* outline: 3px solid red; */
+    border: 3px solid black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.puppy-left{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.puppy-left, .puppy-right{
+    /* outline: 2px solid purple; */
+}
+
+.puppy-left>img{
+    height: 150px;
+    width: 150px;
+}
+
+.puppy-left>h3{
+    font-size: 30px;
+}
+
+.puppy-left>button{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    box-shadow: 3px 3px black;;
+}
+
+.puppy-right>p{
+    font-size: 20px;
+}
+
+
+#upload, #video-box{
+    /* outline: 3px solid red; */
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 22px;
+}
+
+#upload{
+    margin-bottom: 20px;
+}
+
+
+#upload > button{
+    background-color: darkorange;
+    padding: 8px;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+}
+
+#video-box > video{
+    width: 200px;
+    margin-top: 20px;
+}
+
+#cookie-box{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0px 30px;
+    font-size: 22px;
+    padding: 20px;
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+
+    position:fixed;
+    bottom: 20px;
+}
+
+#cookie-box>img{
+    width: 140px;
+}
+
+#cookie-box> button{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px black;
+}
+
+

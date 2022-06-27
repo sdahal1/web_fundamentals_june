@@ -56,7 +56,7 @@ ul li:first-child{
 
 
 .col-left, .col-right{
-    /* outline: 3px solid hotpink; */
+    outline: 3px solid hotpink;
     height: 900px;
     /* width: 500px; */
 }
@@ -73,8 +73,9 @@ ul li:first-child{
 
 #main{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     padding: 0 200px;
+    outline: 3px solid red;
 }
 
 #profile-body{
